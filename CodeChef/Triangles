@@ -1,0 +1,17 @@
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+class Codechef
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		int angle_A, angle_B;
+		Scanner sc = new Scanner(System.in);
+		angle_A = sc.nextInt();
+		angle_B = sc.nextInt();
+		int angle_C = 180 - (angle_A + angle_B);
+		System.out.println(angle_C);
+
+	}
+}
